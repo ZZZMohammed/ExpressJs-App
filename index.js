@@ -7,11 +7,11 @@ const port = 3000 ;
 
 
 require('./DB/db') ;
-
+require('dotenv/config') ;
 
 
 app.listen( port , ()=>{
-    console.log(`this app runing in the port ${port}`);
+    console.log(`this app runing on port ${port}`);
     
 }) ;
 
